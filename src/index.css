@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.main {
+  margin: 2rem 5rem;
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.main li {
+  padding: 15px;
+}
+
+.context-menu {
+  position: absolute;
+  padding: 15px;
+  gap: 5px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  }
+
